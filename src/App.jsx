@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 import Bopup from "./Bopup";
-import "/src/App.css";
+
 function App() {
   const [personData, setPersonData] = useState({
     firstName: "",

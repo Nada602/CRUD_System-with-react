@@ -1,4 +1,4 @@
-import { useState,useEffect } from "react";
+import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { Form } from "react-bootstrap";
@@ -10,9 +10,7 @@ function Bopup({show,person,onSave,onClose}) {
    const handleSave = () => {
      onSave(editedData);
    };
-   
-
-
+  
   return (
     <>
       <Modal show={show} onHide={onClose}>
